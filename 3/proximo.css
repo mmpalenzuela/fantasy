@@ -1,0 +1,249 @@
+.item1 {
+    grid-area: header;
+    padding-bottom: 20%;
+    background-color: rgb(0, 0, 0);
+
+      
+}
+.item2 { 
+    grid-area: menu;
+    padding-bottom: 25%;
+    background-color: rgba(31, 243, 130, 0.531);   
+    padding-top: 1%;
+ 
+}
+
+.item3 {
+  grid-area: footer;
+  padding-bottom:50%;
+  background-color: rgb(0, 0, 0);
+  
+}
+
+.dropbtn {
+  background-color: #4CAF50;
+  color: rgb(0, 0, 0);
+  padding: 10px;
+  font-size: 30px;
+  border: none;
+  cursor: pointer;
+  padding-right: 20px;
+  padding-left: 20px;
+  text-align: center;
+
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+  z-index: 4;
+
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #000000;
+  color: rgb(255, 255, 255);
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+ 
+  
+}
+
+.dropdown-content a {
+  color: rgb(255, 255, 255);
+  padding: 10px 11px;
+  text-decoration: none;
+  display: block;
+
+  }
+
+.dropdown-content a:hover {
+  background-color: #f1f1f171
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+ 
+
+}
+
+.dropdown:hover .dropbtn {
+  background-color: #3e8e41;
+
+}
+
+.equipos{
+  width: 30px;
+}
+
+.grid{
+  display:inline-flex;
+
+}
+
+.analisi{
+  width: 54%;
+  position: absolute;
+  margin-left:25%;
+}
+
+.titulo {
+    color: rgb(0, 0, 0);
+    top: 10%;
+    text-align: center;
+  }
+
+  .jornada {
+    color: rgb(0, 0, 0);
+    top: 25%;
+    text-align: center;
+  }
+
+  .grid-container {
+    display: grid;
+    gap: 10px;
+    margin-left: -10%; 
+    padding: 10px;
+    top: 35%;
+    width: 88%;
+    margin-left: 2%;
+  }
+
+  .grid-container > div {
+    background-color: whitesmoke;
+    border: 1px solid turquoise;
+    padding: 10px;
+    text-align: center;
+  }
+
+  .equipos-pp {
+    width: 20%;
+  }
+
+  .neg{
+    font-weight: 900;
+  }
+
+  
+
+@media only screen and (min-width: 599px) {
+  /* For desktop: */
+  .col-1 {width: 8.33%;}
+  .col-2 {width: 16.66%;}
+  .col-3 {width: 25%;}
+  .col-4 {width: 33.33%;}
+  .col-5 {width: 41.66%;}
+  .col-6 {width: 50%;}
+  .col-7 {width: 58.33%;}
+  .col-8 {width: 66.66%;}
+  .col-9 {width: 75%;}
+  .col-10 {width: 83.33%;}
+  .col-11 {width: 91.66%;}
+  .col-12 {width: 100%;}
+
+
+
+  .item1 {
+    padding-bottom: 5%;
+    background-color: rgb(0, 0, 0); 
+  }
+  .item2 { 
+    background-color: rgba(31, 243, 130, 0.531);   
+  }
+  .item3 {
+    padding-bottom:10%;
+    background-color: rgb(0, 0, 0);  
+  }
+  .dropbtn {
+    background-color: #4CAF50;
+    color: rgb(0, 0, 0);
+    padding: 10px;
+    font-size: 50px;
+    border: none;
+    cursor: pointer;
+    padding-right: 20px;
+    padding-left: 20px;
+    text-align: center;
+  }
+  .dropdown {
+    position: relative;
+    display: inline-block;
+    z-index: 4;
+  }
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #000000;
+    color: rgb(255, 255, 255);
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  }
+  .dropdown-content a {
+    color: rgb(255, 255, 255);
+    padding: 10px 11px;
+    text-decoration: none;
+    display: block;
+  }
+  .dropdown-content a:hover {
+    background-color: #f1f1f171
+  }
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  .dropdown:hover .dropbtn {
+    background-color: #3e8e41;
+  }
+  .equipos{
+    width:30px;
+  }
+  .grid{
+    display:inline-flex;
+  }
+
+
+
+.analisi{ 
+  display: block;
+  margin-right: auto;
+  width: auto;
+}
+
+
+  .titulo {
+    color: rgb(0, 0, 0);
+    top: 10%;
+    text-align: center;
+  }
+
+  .jornada {
+  color: rgb(0, 0, 0);
+  top: 25%;
+  text-align: center;
+  }
+
+  .grid-container {
+    width: 10%;
+    display:inline-flex;
+    gap: 10px;
+    padding-right: 61.7%;
+    top: 35%;
+    margin-left: 14%;
+  }
+
+  .grid-container > div {
+    padding: 10px;
+    text-align: center;
+  }
+
+  .equipos-pp {
+    width: 35%;
+  }
+
+  .neg{
+    font-weight: 900;
+  }
+
+  
+}
